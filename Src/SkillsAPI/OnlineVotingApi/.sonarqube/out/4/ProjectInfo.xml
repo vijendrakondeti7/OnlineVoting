@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>OnlineVotingApi</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>63a219cf-f08f-4b36-91d4-800eb4b1653b</ProjectGuid>
+  <FullPath>/Users/vijendrakondeti/Projects/OnlineVotingApi/OnlineVotingApi/OnlineVotingApi.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="/Users/vijendrakondeti/Projects/OnlineVotingApi/.sonarqube/conf/4/FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">/Users/vijendrakondeti/Projects/OnlineVotingApi/OnlineVotingApi/bin/Debug/net5.0/OnlineVotingApi.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">/Users/vijendrakondeti/Projects/OnlineVotingApi/.sonarqube/out/4</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net5.0</TargetFramework>
+</ProjectInfo>

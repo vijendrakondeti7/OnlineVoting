@@ -1,0 +1,1 @@
+/Users/vijendrakondeti/Projects/OnlineVotingApi/.sonarqube/out/2

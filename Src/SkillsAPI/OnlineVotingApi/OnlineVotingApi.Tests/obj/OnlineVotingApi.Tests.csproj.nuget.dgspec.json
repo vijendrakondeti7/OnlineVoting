@@ -1,0 +1,177 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/vijendrakondeti/Projects/OnlineVotingApi/OnlineVotingApi.Tests/OnlineVotingApi.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/vijendrakondeti/Projects/OnlineVotingApi/OnlineVotingApi.Tests/OnlineVotingApi.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vijendrakondeti/Projects/OnlineVotingApi/OnlineVotingApi.Tests/OnlineVotingApi.Tests.csproj",
+        "projectName": "OnlineVotingApi.Tests",
+        "projectPath": "/Users/vijendrakondeti/Projects/OnlineVotingApi/OnlineVotingApi.Tests/OnlineVotingApi.Tests.csproj",
+        "packagesPath": "/Users/vijendrakondeti/.nuget/packages/",
+        "outputPath": "/Users/vijendrakondeti/Projects/OnlineVotingApi/OnlineVotingApi.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vijendrakondeti/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/vijendrakondeti/Projects/OnlineVotingApi/OnlineVotingApi/OnlineVotingApi.csproj": {
+                "projectPath": "/Users/vijendrakondeti/Projects/OnlineVotingApi/OnlineVotingApi/OnlineVotingApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/vijendrakondeti/Projects/OnlineVotingApi/OnlineVotingApi/OnlineVotingApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/vijendrakondeti/Projects/OnlineVotingApi/OnlineVotingApi/OnlineVotingApi.csproj",
+        "projectName": "OnlineVotingApi",
+        "projectPath": "/Users/vijendrakondeti/Projects/OnlineVotingApi/OnlineVotingApi/OnlineVotingApi.csproj",
+        "packagesPath": "/Users/vijendrakondeti/.nuget/packages/",
+        "outputPath": "/Users/vijendrakondeti/Projects/OnlineVotingApi/OnlineVotingApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/vijendrakondeti/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[5.61.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
